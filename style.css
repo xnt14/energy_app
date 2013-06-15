@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* Imports */
+@import 'reset.css'; /* CSS Reset */
+
+
+body {
+	background-color: #88b1ba;
+	color: #ffffff;
+	font-family: "HelveticaNeue", "Helvetica";
+/*	color: rgba(255,255,255,0.7);*/
+}
+
+.navigationBar {
+	height: 44px;
+	border-bottom: 2px solid rgba(212, 247, 255, 0.6);
+}
+
+.navigationBar h1 {
+	font-size: 1.5em;
+	text-align: center;
+	position: relative;
+	top: 0.3em;
+}
+
+.navigationButton {
+	
+	background: rgba(212, 247, 255, 0.5);
+	color: #ffffff;
+/*	border: 4px solid rgba(212, 247, 255, 0.5);*/
+	border: none;
+	border-radius: 6px;
+	padding: 0.4em;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	position: absolute;
+	top: 0.2em;
+	left: 0.4em;
+	font-size: 1em;
+}
+
+.tableView {
+	padding: 0.2em;
+}
+
+.cells li{
+	
+	padding: 1em;
+	height: 22px;
+	font-size: 1.2em;
+	border-bottom: 1px solid rgba(255,255,255,0.2);	
+}
+
+.label {
+	color: rgba(255,255,255,0.8);
+}
+
+.value {
+	float: right;
+	font-size: 1.3em;
+}
+
+
